@@ -35,11 +35,13 @@
     return _sharedSingleton;
 }
 
+// 显示登录界面
 -(void)showWindow {
     self.hidden = NO;
     [self makeKeyAndVisible];
 }
 
+// 隐藏登录界面
 -(void)hideWindow {
     self.hidden = YES;
     [[UIApplication sharedApplication].delegate.window makeKeyAndVisible];
