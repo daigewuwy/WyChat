@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G22010" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WCLoginVC">
+            <connections>
+                <outlet property="loginBtn" destination="Ue7-aB-3NT" id="9Rt-fd-x8P"/>
+                <outlet property="nameLab" destination="wBZ-UX-67l" id="XjS-xs-mst"/>
+                <outlet property="placeHolderImgV" destination="OGf-MO-RwF" id="rev-YS-TxH"/>
+                <outlet property="registerBtn" destination="xuR-bL-yED" id="dxO-Mv-ogW"/>
+                <outlet property="usrNameTextField" destination="cVc-wb-Yb7" id="oDw-g1-egW"/>
+                <outlet property="usrPwdTextField" destination="TXR-mm-JXc" id="Ja6-gv-NwI"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="WyChat" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wBZ-UX-67l">
+                    <rect key="frame" x="186" y="99" width="97" height="37"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OGf-MO-RwF">
+                    <rect key="frame" x="130" y="88" width="60" height="60"/>
+                </imageView>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="请输入您的WC账号" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cVc-wb-Yb7">
+                    <rect key="frame" x="48" y="236" width="318" height="30"/>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="请输入您的WC密码" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TXR-mm-JXc">
+                    <rect key="frame" x="48" y="332" width="318" height="30"/>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ue7-aB-3NT">
+                    <rect key="frame" x="76" y="419" width="261" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                    <state key="normal" title="登录">
+                        <color key="titleColor" red="0.31636302773506431" green="0.67405764600379658" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="loginBtnClicked:" destination="-1" eventType="touchUpInside" id="sib-QC-Dk2"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xuR-bL-yED">
+                    <rect key="frame" x="76" y="505" width="261" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                    <state key="normal" title="注册"/>
+                    <connections>
+                        <action selector="registerBtnClicked:" destination="-1" eventType="touchUpInside" id="0m6-I7-gHV"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="xuR-bL-yED" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="76" id="41b-kq-YAC"/>
+                <constraint firstAttribute="trailing" secondItem="xuR-bL-yED" secondAttribute="trailing" constant="77" id="4om-8N-VIp"/>
+                <constraint firstItem="TXR-mm-JXc" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="48" id="8b1-Dl-Fvk"/>
+                <constraint firstItem="Ue7-aB-3NT" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="76" id="9TM-Pd-zHS"/>
+                <constraint firstAttribute="trailing" secondItem="xuR-bL-yED" secondAttribute="trailing" constant="157" id="IRM-D2-7DQ"/>
+                <constraint firstAttribute="trailing" secondItem="Ue7-aB-3NT" secondAttribute="trailing" constant="77" id="K1I-bR-TLr"/>
+                <constraint firstItem="TXR-mm-JXc" firstAttribute="top" secondItem="cVc-wb-Yb7" secondAttribute="bottom" constant="66" id="Nkc-PW-Slk"/>
+                <constraint firstAttribute="trailing" secondItem="Ue7-aB-3NT" secondAttribute="trailing" constant="158" id="ODq-76-Hmi"/>
+                <constraint firstItem="xuR-bL-yED" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="158" id="Vmr-8e-xgP"/>
+                <constraint firstAttribute="trailing" secondItem="OGf-MO-RwF" secondAttribute="trailing" constant="224" id="YmE-sc-Yyp"/>
+                <constraint firstItem="OGf-MO-RwF" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="88" id="ZTi-sR-fRs"/>
+                <constraint firstItem="Ue7-aB-3NT" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="157" id="cST-Ef-De9"/>
+                <constraint firstItem="xuR-bL-yED" firstAttribute="top" secondItem="Ue7-aB-3NT" secondAttribute="bottom" constant="56" id="cfg-g1-4yd"/>
+                <constraint firstAttribute="trailing" secondItem="cVc-wb-Yb7" secondAttribute="trailing" constant="48" id="dbq-pl-Dl7"/>
+                <constraint firstItem="wBZ-UX-67l" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="99" id="fiT-XL-XIu"/>
+                <constraint firstAttribute="trailing" secondItem="wBZ-UX-67l" secondAttribute="trailing" constant="131" id="gWV-5X-xQQ"/>
+                <constraint firstItem="Ue7-aB-3NT" firstAttribute="top" secondItem="TXR-mm-JXc" secondAttribute="bottom" constant="57" id="iFe-UP-5yK"/>
+                <constraint firstItem="cVc-wb-Yb7" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="48" id="oWJ-WD-WTC"/>
+                <constraint firstAttribute="trailing" secondItem="TXR-mm-JXc" secondAttribute="trailing" constant="48" id="qLn-vB-tGc"/>
+                <constraint firstItem="cVc-wb-Yb7" firstAttribute="top" secondItem="OGf-MO-RwF" secondAttribute="bottom" constant="88" id="svc-Ns-VjZ"/>
+            </constraints>
+            <point key="canvasLocation" x="34" y="54"/>
+        </view>
+    </objects>
+</document>

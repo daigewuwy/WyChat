@@ -1,0 +1,22 @@
+//
+//  PrefixHeader.pch
+//  WyChat
+//
+//  Created by 吴伟毅 on 19/5/30.
+//  Copyright © 2019年 mac. All rights reserved.
+//
+
+
+
+
+#ifdef __OBJC__
+
+#import "VenderHeader.h"
+#import "SizeHeader.h"
+#import "CateGoryHeader.h"
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+#endif
+
+

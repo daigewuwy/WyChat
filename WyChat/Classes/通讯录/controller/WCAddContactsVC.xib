@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G22010" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WCAddContactsVC">
+            <connections>
+                <outlet property="usrIDTextField" destination="mdk-s8-6tI" id="HCg-K3-eJ9"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="请输入要添加的好友ID" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mdk-s8-6tI">
+                    <rect key="frame" x="47" y="127" width="319" height="30"/>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3uK-rM-s7D">
+                    <rect key="frame" x="175" y="217" width="62" height="30"/>
+                    <state key="normal" title="发送添加"/>
+                    <connections>
+                        <action selector="senderBtnClicked:" destination="-1" eventType="touchUpInside" id="gJz-BR-mhH"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="3uK-rM-s7D" firstAttribute="top" secondItem="mdk-s8-6tI" secondAttribute="bottom" constant="60" id="3sj-aF-ZBW"/>
+                <constraint firstItem="mdk-s8-6tI" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="48" id="eL9-ud-yXz"/>
+                <constraint firstAttribute="trailing" secondItem="mdk-s8-6tI" secondAttribute="trailing" constant="48" id="nZK-EQ-xBN"/>
+                <constraint firstAttribute="trailing" secondItem="mdk-s8-6tI" secondAttribute="trailing" constant="48" id="po5-WN-SIt"/>
+                <constraint firstItem="mdk-s8-6tI" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="127" id="rSk-Qr-CW8"/>
+                <constraint firstItem="mdk-s8-6tI" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="47" id="sK4-p2-ZDS"/>
+                <constraint firstItem="3uK-rM-s7D" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="175" id="syp-bp-Udw"/>
+                <constraint firstAttribute="trailing" secondItem="3uK-rM-s7D" secondAttribute="trailing" constant="177" id="vwQ-Uz-kyl"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

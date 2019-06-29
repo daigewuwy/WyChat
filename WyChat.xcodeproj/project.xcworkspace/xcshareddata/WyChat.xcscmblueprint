@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "CB3FE867F2ABB021F4968224C6873F11B4B355E6",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "F18F028D07072013B63284040523A1E6EA848F5B" : 9223372036854775807,
+    "CB3FE867F2ABB021F4968224C6873F11B4B355E6" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "8DADBCA7-6C99-4F34-8CBC-0944C6EE9686",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "F18F028D07072013B63284040523A1E6EA848F5B" : "",
+    "CB3FE867F2ABB021F4968224C6873F11B4B355E6" : "WyChat\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "WyChat",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "WyChat.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/daigewuwy\/WyChat.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CB3FE867F2ABB021F4968224C6873F11B4B355E6"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/daigewuwy\/IM-Demo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F18F028D07072013B63284040523A1E6EA848F5B"
+    }
+  ]
+}

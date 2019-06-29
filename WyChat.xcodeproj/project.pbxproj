@@ -1,0 +1,1131 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B43A46F422B341350046BFF2 /* WCMailListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B43A46F322B341350046BFF2 /* WCMailListVC.m */; };
+		B43A46F722B3416A0046BFF2 /* WCFriendListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B43A46F622B3416A0046BFF2 /* WCFriendListVC.m */; };
+		B43A46FA22B3417A0046BFF2 /* WCGroupListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B43A46F922B3417A0046BFF2 /* WCGroupListVC.m */; };
+		B458EA5E22A6143D00E79495 /* WCContactsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B458EA5D22A6143D00E79495 /* WCContactsCell.m */; };
+		B458EA6122A614FF00E79495 /* WCContactModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B458EA6022A614FF00E79495 /* WCContactModel.m */; };
+		B458EA6D22A9FA8F00E79495 /* DBUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = B458EA6C22A9FA8F00E79495 /* DBUtil.m */; };
+		B458EA7522AAA50800E79495 /* WCChatVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B458EA7422AAA50800E79495 /* WCChatVC.m */; };
+		B458EA7822ACE9EA00E79495 /* context.m in Sources */ = {isa = PBXBuildFile; fileRef = B458EA7722ACE9EA00E79495 /* context.m */; };
+		B458EABA22ADF0FB00E79495 /* WCGroupListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B458EAB922ADF0FB00E79495 /* WCGroupListCell.m */; };
+		B458EABD22ADF15B00E79495 /* WCGroupListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B458EABC22ADF15B00E79495 /* WCGroupListModel.m */; };
+		B458EAC122ADFBCA00E79495 /* WCCreateGroupVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B458EABF22ADFBCA00E79495 /* WCCreateGroupVC.m */; };
+		B458EAC222ADFBCA00E79495 /* WCCreateGroupVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B458EAC022ADFBCA00E79495 /* WCCreateGroupVC.xib */; };
+		B458EAD022B33DDB00E79495 /* SlideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B458EACF22B33DDB00E79495 /* SlideViewController.m */; };
+		B468A21B22B7957300456B56 /* WCSenderIdCardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B468A21A22B7957300456B56 /* WCSenderIdCardCell.m */; };
+		B468A21E22B7958400456B56 /* WCReciverIdCardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B468A21D22B7958400456B56 /* WCReciverIdCardCell.m */; };
+		B474D51922B4D54F00D5C65D /* WCNewFriendApplyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B474D51822B4D54F00D5C65D /* WCNewFriendApplyCell.m */; };
+		B474D51C22B4D56600D5C65D /* WCNewFriendApplyVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B474D51B22B4D56600D5C65D /* WCNewFriendApplyVC.m */; };
+		B474D52522B5F0A500D5C65D /* WCMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = B474D52422B5F0A500D5C65D /* WCMediator.m */; };
+		B474D52822B5F0BD00D5C65D /* WCChatComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = B474D52722B5F0BD00D5C65D /* WCChatComponent.m */; };
+		B4B74D9B22A36F9600246875 /* WCMyInfoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B4B74D9922A36F9600246875 /* WCMyInfoVC.m */; };
+		B4B74D9C22A36F9600246875 /* WCMyInfoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4B74D9A22A36F9600246875 /* WCMyInfoVC.xib */; };
+		B4B74DA022A37D0400246875 /* WCAddContactsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B4B74D9E22A37D0400246875 /* WCAddContactsVC.m */; };
+		B4B74DA122A37D0400246875 /* WCAddContactsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4B74D9F22A37D0400246875 /* WCAddContactsVC.xib */; };
+		B4B74DA422A3BF9900246875 /* WCConversationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B4B74DA322A3BF9900246875 /* WCConversationModel.m */; };
+		B4B74E5122A3C7B200246875 /* leftBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = B4B74E5022A3C7B200246875 /* leftBtn.png */; };
+		B4B74E5322A3C81100246875 /* rightBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = B4B74E5222A3C81100246875 /* rightBtn.png */; };
+		B4D356DD22A0BA45002EC39F /* WCHomePageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B4D356CE22A0BA45002EC39F /* WCHomePageVC.m */; };
+		B4D356DE22A0BA45002EC39F /* WCContactsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B4D356D422A0BA45002EC39F /* WCContactsVC.m */; };
+		B4DF489D22A504480055D543 /* WCNewContactApplyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B4DF489C22A504480055D543 /* WCNewContactApplyCell.m */; };
+		B4DF48A022A526C50055D543 /* WCFriendApplyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B4DF489F22A526C50055D543 /* WCFriendApplyModel.m */; };
+		B4E6F1E422A0DA8B0062E1E0 /* WCConversationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B4E6F1E322A0DA8B0062E1E0 /* WCConversationCell.m */; };
+		B4F31E38229FB97F00EAF52F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B4F31E37229FB97F00EAF52F /* main.m */; };
+		B4F31E3B229FB97F00EAF52F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B4F31E3A229FB97F00EAF52F /* AppDelegate.m */; };
+		B4F31E43229FB97F00EAF52F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4F31E42229FB97F00EAF52F /* Assets.xcassets */; };
+		B4F31E46229FB97F00EAF52F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4F31E44229FB97F00EAF52F /* LaunchScreen.storyboard */; };
+		B4F31E51229FB97F00EAF52F /* WyChatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B4F31E50229FB97F00EAF52F /* WyChatTests.m */; };
+		B4F31E5C229FB97F00EAF52F /* WyChatUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B4F31E5B229FB97F00EAF52F /* WyChatUITests.m */; };
+		B4F31E72229FBABC00EAF52F /* WCLoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B4F31E70229FBABC00EAF52F /* WCLoginVC.m */; };
+		B4F31E73229FBABC00EAF52F /* WCLoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4F31E71229FBABC00EAF52F /* WCLoginVC.xib */; };
+		B4F31E76229FBC1400EAF52F /* WCLoginWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = B4F31E75229FBC1400EAF52F /* WCLoginWindow.m */; };
+		B4F31EC3229FC1B600EAF52F /* BaseTopBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = B4F31E7E229FC1B600EAF52F /* BaseTopBarView.m */; };
+		B4F31EC4229FC1B600EAF52F /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4F31E80229FC1B600EAF52F /* BaseViewController.m */; };
+		B4F31EDF229FC1B600EAF52F /* ViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B4F31EC1229FC1B600EAF52F /* ViewManager.m */; };
+		D0A007269C221872DBC57480 /* libPods-WyChat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F08098ECE74B2FE84008E968 /* libPods-WyChat.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B4F31E4D229FB97F00EAF52F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B4F31E2B229FB97F00EAF52F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4F31E32229FB97F00EAF52F;
+			remoteInfo = WyChat;
+		};
+		B4F31E58229FB97F00EAF52F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B4F31E2B229FB97F00EAF52F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4F31E32229FB97F00EAF52F;
+			remoteInfo = WyChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B46BB0C6229FE2D600E1DACB /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1EEC8511B34860D172081628 /* Pods-WyChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WyChat.release.xcconfig"; path = "Target Support Files/Pods-WyChat/Pods-WyChat.release.xcconfig"; sourceTree = "<group>"; };
+		779BA3CA5970456D33B4137A /* Pods-WyChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WyChat.debug.xcconfig"; path = "Target Support Files/Pods-WyChat/Pods-WyChat.debug.xcconfig"; sourceTree = "<group>"; };
+		B43A46F222B341350046BFF2 /* WCMailListVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCMailListVC.h; sourceTree = "<group>"; };
+		B43A46F322B341350046BFF2 /* WCMailListVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCMailListVC.m; sourceTree = "<group>"; };
+		B43A46F522B3416A0046BFF2 /* WCFriendListVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCFriendListVC.h; sourceTree = "<group>"; };
+		B43A46F622B3416A0046BFF2 /* WCFriendListVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCFriendListVC.m; sourceTree = "<group>"; };
+		B43A46F822B3417A0046BFF2 /* WCGroupListVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCGroupListVC.h; sourceTree = "<group>"; };
+		B43A46F922B3417A0046BFF2 /* WCGroupListVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCGroupListVC.m; sourceTree = "<group>"; };
+		B458EA5C22A6143D00E79495 /* WCContactsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCContactsCell.h; sourceTree = "<group>"; };
+		B458EA5D22A6143D00E79495 /* WCContactsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCContactsCell.m; sourceTree = "<group>"; };
+		B458EA5F22A614FF00E79495 /* WCContactModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCContactModel.h; sourceTree = "<group>"; };
+		B458EA6022A614FF00E79495 /* WCContactModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCContactModel.m; sourceTree = "<group>"; };
+		B458EA6B22A9FA8F00E79495 /* DBUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBUtil.h; sourceTree = "<group>"; };
+		B458EA6C22A9FA8F00E79495 /* DBUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBUtil.m; sourceTree = "<group>"; };
+		B458EA7322AAA50800E79495 /* WCChatVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCChatVC.h; sourceTree = "<group>"; };
+		B458EA7422AAA50800E79495 /* WCChatVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCChatVC.m; sourceTree = "<group>"; };
+		B458EA7622ACE9EA00E79495 /* context.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = context.h; sourceTree = "<group>"; };
+		B458EA7722ACE9EA00E79495 /* context.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = context.m; sourceTree = "<group>"; };
+		B458EAB822ADF0FB00E79495 /* WCGroupListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCGroupListCell.h; sourceTree = "<group>"; };
+		B458EAB922ADF0FB00E79495 /* WCGroupListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCGroupListCell.m; sourceTree = "<group>"; };
+		B458EABB22ADF15B00E79495 /* WCGroupListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCGroupListModel.h; sourceTree = "<group>"; };
+		B458EABC22ADF15B00E79495 /* WCGroupListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCGroupListModel.m; sourceTree = "<group>"; };
+		B458EABE22ADFBCA00E79495 /* WCCreateGroupVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCCreateGroupVC.h; sourceTree = "<group>"; };
+		B458EABF22ADFBCA00E79495 /* WCCreateGroupVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCCreateGroupVC.m; sourceTree = "<group>"; };
+		B458EAC022ADFBCA00E79495 /* WCCreateGroupVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WCCreateGroupVC.xib; sourceTree = "<group>"; };
+		B458EACB22AFF8ED00E79495 /* WCMailListImporter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WCMailListImporter.h; sourceTree = "<group>"; };
+		B458EACE22B33DDB00E79495 /* SlideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SlideViewController.h; path = "../../../../../../新闻类界面框架/新闻类界面框架/SlideViewController.h"; sourceTree = "<group>"; };
+		B458EACF22B33DDB00E79495 /* SlideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SlideViewController.m; path = "../../../../../../新闻类界面框架/新闻类界面框架/SlideViewController.m"; sourceTree = "<group>"; };
+		B468A21922B7957300456B56 /* WCSenderIdCardCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCSenderIdCardCell.h; sourceTree = "<group>"; };
+		B468A21A22B7957300456B56 /* WCSenderIdCardCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCSenderIdCardCell.m; sourceTree = "<group>"; };
+		B468A21C22B7958400456B56 /* WCReciverIdCardCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCReciverIdCardCell.h; sourceTree = "<group>"; };
+		B468A21D22B7958400456B56 /* WCReciverIdCardCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCReciverIdCardCell.m; sourceTree = "<group>"; };
+		B474D51722B4D54F00D5C65D /* WCNewFriendApplyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCNewFriendApplyCell.h; sourceTree = "<group>"; };
+		B474D51822B4D54F00D5C65D /* WCNewFriendApplyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCNewFriendApplyCell.m; sourceTree = "<group>"; };
+		B474D51A22B4D56600D5C65D /* WCNewFriendApplyVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCNewFriendApplyVC.h; sourceTree = "<group>"; };
+		B474D51B22B4D56600D5C65D /* WCNewFriendApplyVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCNewFriendApplyVC.m; sourceTree = "<group>"; };
+		B474D52322B5F0A500D5C65D /* WCMediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WCMediator.h; path = "首页/controller/WCMediator.h"; sourceTree = "<group>"; };
+		B474D52422B5F0A500D5C65D /* WCMediator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WCMediator.m; path = "首页/controller/WCMediator.m"; sourceTree = "<group>"; };
+		B474D52622B5F0BC00D5C65D /* WCChatComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WCChatComponent.h; path = "首页/controller/WCChatComponent.h"; sourceTree = "<group>"; };
+		B474D52722B5F0BD00D5C65D /* WCChatComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WCChatComponent.m; path = "首页/controller/WCChatComponent.m"; sourceTree = "<group>"; };
+		B4B74D9822A36F9600246875 /* WCMyInfoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCMyInfoVC.h; sourceTree = "<group>"; };
+		B4B74D9922A36F9600246875 /* WCMyInfoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCMyInfoVC.m; sourceTree = "<group>"; };
+		B4B74D9A22A36F9600246875 /* WCMyInfoVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WCMyInfoVC.xib; sourceTree = "<group>"; };
+		B4B74D9D22A37D0400246875 /* WCAddContactsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCAddContactsVC.h; sourceTree = "<group>"; };
+		B4B74D9E22A37D0400246875 /* WCAddContactsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCAddContactsVC.m; sourceTree = "<group>"; };
+		B4B74D9F22A37D0400246875 /* WCAddContactsVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WCAddContactsVC.xib; sourceTree = "<group>"; };
+		B4B74DA222A3BF9900246875 /* WCConversationModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCConversationModel.h; sourceTree = "<group>"; };
+		B4B74DA322A3BF9900246875 /* WCConversationModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCConversationModel.m; sourceTree = "<group>"; };
+		B4B74E5022A3C7B200246875 /* leftBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leftBtn.png; sourceTree = "<group>"; };
+		B4B74E5222A3C81100246875 /* rightBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rightBtn.png; sourceTree = "<group>"; };
+		B4D356CD22A0BA45002EC39F /* WCHomePageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCHomePageVC.h; sourceTree = "<group>"; };
+		B4D356CE22A0BA45002EC39F /* WCHomePageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCHomePageVC.m; sourceTree = "<group>"; };
+		B4D356D322A0BA45002EC39F /* WCContactsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCContactsVC.h; sourceTree = "<group>"; };
+		B4D356D422A0BA45002EC39F /* WCContactsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCContactsVC.m; sourceTree = "<group>"; };
+		B4DF489B22A504480055D543 /* WCNewContactApplyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCNewContactApplyCell.h; sourceTree = "<group>"; };
+		B4DF489C22A504480055D543 /* WCNewContactApplyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCNewContactApplyCell.m; sourceTree = "<group>"; };
+		B4DF489E22A526C50055D543 /* WCFriendApplyModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCFriendApplyModel.h; sourceTree = "<group>"; };
+		B4DF489F22A526C50055D543 /* WCFriendApplyModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCFriendApplyModel.m; sourceTree = "<group>"; };
+		B4E6F1E122A0D4CB0062E1E0 /* README.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = README.h; sourceTree = "<group>"; };
+		B4E6F1E222A0DA8B0062E1E0 /* WCConversationCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCConversationCell.h; sourceTree = "<group>"; };
+		B4E6F1E322A0DA8B0062E1E0 /* WCConversationCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCConversationCell.m; sourceTree = "<group>"; };
+		B4F31E33229FB97F00EAF52F /* WyChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WyChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4F31E37229FB97F00EAF52F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B4F31E39229FB97F00EAF52F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../../AppDelegate.h; sourceTree = "<group>"; };
+		B4F31E3A229FB97F00EAF52F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../../AppDelegate.m; sourceTree = "<group>"; };
+		B4F31E42229FB97F00EAF52F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B4F31E45229FB97F00EAF52F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B4F31E47229FB97F00EAF52F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4F31E4C229FB97F00EAF52F /* WyChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WyChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4F31E50229FB97F00EAF52F /* WyChatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WyChatTests.m; sourceTree = "<group>"; };
+		B4F31E52229FB97F00EAF52F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4F31E57229FB97F00EAF52F /* WyChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WyChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4F31E5B229FB97F00EAF52F /* WyChatUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WyChatUITests.m; sourceTree = "<group>"; };
+		B4F31E5D229FB97F00EAF52F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4F31E6F229FBABC00EAF52F /* WCLoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCLoginVC.h; sourceTree = "<group>"; };
+		B4F31E70229FBABC00EAF52F /* WCLoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCLoginVC.m; sourceTree = "<group>"; };
+		B4F31E71229FBABC00EAF52F /* WCLoginVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WCLoginVC.xib; sourceTree = "<group>"; };
+		B4F31E74229FBC1400EAF52F /* WCLoginWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCLoginWindow.h; sourceTree = "<group>"; };
+		B4F31E75229FBC1400EAF52F /* WCLoginWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCLoginWindow.m; sourceTree = "<group>"; };
+		B4F31E77229FBD1C00EAF52F /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = Classes/Others/PrefixHeader.pch; sourceTree = "<group>"; };
+		B4F31E79229FBDAA00EAF52F /* VenderHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VenderHeader.h; sourceTree = "<group>"; };
+		B4F31E7A229FBDC500EAF52F /* SizeHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SizeHeader.h; sourceTree = "<group>"; };
+		B4F31E7D229FC1B600EAF52F /* BaseTopBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTopBarView.h; sourceTree = "<group>"; };
+		B4F31E7E229FC1B600EAF52F /* BaseTopBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTopBarView.m; sourceTree = "<group>"; };
+		B4F31E7F229FC1B600EAF52F /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		B4F31E80229FC1B600EAF52F /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		B4F31EBB229FC1B600EAF52F /* CateGoryHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CateGoryHeader.h; sourceTree = "<group>"; };
+		B4F31EC0229FC1B600EAF52F /* ViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewManager.h; sourceTree = "<group>"; };
+		B4F31EC1229FC1B600EAF52F /* ViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewManager.m; sourceTree = "<group>"; };
+		F08098ECE74B2FE84008E968 /* libPods-WyChat.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WyChat.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B4F31E30229FB97F00EAF52F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0A007269C221872DBC57480 /* libPods-WyChat.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4F31E49229FB97F00EAF52F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4F31E54229FB97F00EAF52F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		59C864279BBA205C7386DB5F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				779BA3CA5970456D33B4137A /* Pods-WyChat.debug.xcconfig */,
+				1EEC8511B34860D172081628 /* Pods-WyChat.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7408A0F708180B6B4A20CBEB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F08098ECE74B2FE84008E968 /* libPods-WyChat.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B43A46FB22B341800046BFF2 /* friendList */ = {
+			isa = PBXGroup;
+			children = (
+				B43A46F522B3416A0046BFF2 /* WCFriendListVC.h */,
+				B43A46F622B3416A0046BFF2 /* WCFriendListVC.m */,
+			);
+			name = friendList;
+			sourceTree = "<group>";
+		};
+		B43A46FC22B341940046BFF2 /* groupList */ = {
+			isa = PBXGroup;
+			children = (
+				B43A46F822B3417A0046BFF2 /* WCGroupListVC.h */,
+				B43A46F922B3417A0046BFF2 /* WCGroupListVC.m */,
+			);
+			name = groupList;
+			sourceTree = "<group>";
+		};
+		B458EA6E22A9FA9200E79495 /* DB */ = {
+			isa = PBXGroup;
+			children = (
+				B458EA6B22A9FA8F00E79495 /* DBUtil.h */,
+				B458EA6C22A9FA8F00E79495 /* DBUtil.m */,
+				B458EA7622ACE9EA00E79495 /* context.h */,
+				B458EA7722ACE9EA00E79495 /* context.m */,
+			);
+			name = DB;
+			sourceTree = "<group>";
+		};
+		B458EA6F22AAA4BE00E79495 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				B458EA7222AAA4DF00E79495 /* Controller */,
+				B458EA7122AAA4D100E79495 /* View */,
+				B458EA7022AAA4C600E79495 /* Model */,
+			);
+			name = Chat;
+			sourceTree = "<group>";
+		};
+		B458EA7022AAA4C600E79495 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		B458EA7122AAA4D100E79495 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B468A21922B7957300456B56 /* WCSenderIdCardCell.h */,
+				B468A21A22B7957300456B56 /* WCSenderIdCardCell.m */,
+				B468A21C22B7958400456B56 /* WCReciverIdCardCell.h */,
+				B468A21D22B7958400456B56 /* WCReciverIdCardCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		B458EA7222AAA4DF00E79495 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B458EA7322AAA50800E79495 /* WCChatVC.h */,
+				B458EA7422AAA50800E79495 /* WCChatVC.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		B474D50D22B4AAA700D5C65D /* addContact */ = {
+			isa = PBXGroup;
+			children = (
+				B4B74D9D22A37D0400246875 /* WCAddContactsVC.h */,
+				B4B74D9E22A37D0400246875 /* WCAddContactsVC.m */,
+				B4B74D9F22A37D0400246875 /* WCAddContactsVC.xib */,
+			);
+			name = addContact;
+			sourceTree = "<group>";
+		};
+		B474D50E22B4AABC00D5C65D /* createGroup */ = {
+			isa = PBXGroup;
+			children = (
+				B458EABE22ADFBCA00E79495 /* WCCreateGroupVC.h */,
+				B458EABF22ADFBCA00E79495 /* WCCreateGroupVC.m */,
+				B458EAC022ADFBCA00E79495 /* WCCreateGroupVC.xib */,
+			);
+			name = createGroup;
+			sourceTree = "<group>";
+		};
+		B474D50F22B4AB6800D5C65D /* mailList */ = {
+			isa = PBXGroup;
+			children = (
+				B458EACE22B33DDB00E79495 /* SlideViewController.h */,
+				B458EACF22B33DDB00E79495 /* SlideViewController.m */,
+				B43A46F222B341350046BFF2 /* WCMailListVC.h */,
+				B43A46F322B341350046BFF2 /* WCMailListVC.m */,
+			);
+			name = mailList;
+			sourceTree = "<group>";
+		};
+		B474D51022B4D44300D5C65D /* newFriendApply */ = {
+			isa = PBXGroup;
+			children = (
+				B474D51722B4D54F00D5C65D /* WCNewFriendApplyCell.h */,
+				B474D51822B4D54F00D5C65D /* WCNewFriendApplyCell.m */,
+				B474D51A22B4D56600D5C65D /* WCNewFriendApplyVC.h */,
+				B474D51B22B4D56600D5C65D /* WCNewFriendApplyVC.m */,
+			);
+			name = newFriendApply;
+			sourceTree = "<group>";
+		};
+		B48FBB6222BFCE45005E4738 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B474D52322B5F0A500D5C65D /* WCMediator.h */,
+				B474D52422B5F0A500D5C65D /* WCMediator.m */,
+				B474D52622B5F0BC00D5C65D /* WCChatComponent.h */,
+				B474D52722B5F0BD00D5C65D /* WCChatComponent.m */,
+			);
+			name = Components;
+			sourceTree = "<group>";
+		};
+		B4D356CB22A0BA45002EC39F /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				B4D356CC22A0BA45002EC39F /* controller */,
+				B4D356CF22A0BA45002EC39F /* model */,
+				B4D356D022A0BA45002EC39F /* view */,
+			);
+			name = HomePage;
+			path = "首页";
+			sourceTree = "<group>";
+		};
+		B4D356CC22A0BA45002EC39F /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				B4D356CD22A0BA45002EC39F /* WCHomePageVC.h */,
+				B4D356CE22A0BA45002EC39F /* WCHomePageVC.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		B4D356CF22A0BA45002EC39F /* model */ = {
+			isa = PBXGroup;
+			children = (
+				B4B74DA222A3BF9900246875 /* WCConversationModel.h */,
+				B4B74DA322A3BF9900246875 /* WCConversationModel.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		B4D356D022A0BA45002EC39F /* view */ = {
+			isa = PBXGroup;
+			children = (
+				B4E6F1E222A0DA8B0062E1E0 /* WCConversationCell.h */,
+				B4E6F1E322A0DA8B0062E1E0 /* WCConversationCell.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		B4D356D122A0BA45002EC39F /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				B4D356D222A0BA45002EC39F /* controller */,
+				B4D356D522A0BA45002EC39F /* model */,
+				B4D356D622A0BA45002EC39F /* view */,
+			);
+			name = Contacts;
+			path = "通讯录";
+			sourceTree = "<group>";
+		};
+		B4D356D222A0BA45002EC39F /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				B474D51022B4D44300D5C65D /* newFriendApply */,
+				B4D356D322A0BA45002EC39F /* WCContactsVC.h */,
+				B4D356D422A0BA45002EC39F /* WCContactsVC.m */,
+				B458EACB22AFF8ED00E79495 /* WCMailListImporter.h */,
+				B474D50F22B4AB6800D5C65D /* mailList */,
+				B474D50E22B4AABC00D5C65D /* createGroup */,
+				B474D50D22B4AAA700D5C65D /* addContact */,
+				B43A46FC22B341940046BFF2 /* groupList */,
+				B43A46FB22B341800046BFF2 /* friendList */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		B4D356D522A0BA45002EC39F /* model */ = {
+			isa = PBXGroup;
+			children = (
+				B4DF489E22A526C50055D543 /* WCFriendApplyModel.h */,
+				B4DF489F22A526C50055D543 /* WCFriendApplyModel.m */,
+				B458EA5F22A614FF00E79495 /* WCContactModel.h */,
+				B458EA6022A614FF00E79495 /* WCContactModel.m */,
+				B458EABB22ADF15B00E79495 /* WCGroupListModel.h */,
+				B458EABC22ADF15B00E79495 /* WCGroupListModel.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		B4D356D622A0BA45002EC39F /* view */ = {
+			isa = PBXGroup;
+			children = (
+				B4DF489B22A504480055D543 /* WCNewContactApplyCell.h */,
+				B4DF489C22A504480055D543 /* WCNewContactApplyCell.m */,
+				B458EA5C22A6143D00E79495 /* WCContactsCell.h */,
+				B458EA5D22A6143D00E79495 /* WCContactsCell.m */,
+				B458EAB822ADF0FB00E79495 /* WCGroupListCell.h */,
+				B458EAB922ADF0FB00E79495 /* WCGroupListCell.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		B4D356D722A0BA45002EC39F /* MyInfomation */ = {
+			isa = PBXGroup;
+			children = (
+				B4D356D822A0BA45002EC39F /* controller */,
+				B4D356DB22A0BA45002EC39F /* model */,
+				B4D356DC22A0BA45002EC39F /* view */,
+			);
+			name = MyInfomation;
+			path = "我的";
+			sourceTree = "<group>";
+		};
+		B4D356D822A0BA45002EC39F /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				B4B74D9822A36F9600246875 /* WCMyInfoVC.h */,
+				B4B74D9922A36F9600246875 /* WCMyInfoVC.m */,
+				B4B74D9A22A36F9600246875 /* WCMyInfoVC.xib */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		B4D356DB22A0BA45002EC39F /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		B4D356DC22A0BA45002EC39F /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		B4F31E2A229FB97F00EAF52F = {
+			isa = PBXGroup;
+			children = (
+				B4F31E35229FB97F00EAF52F /* WyChat */,
+				B4F31E4F229FB97F00EAF52F /* WyChatTests */,
+				B4F31E5A229FB97F00EAF52F /* WyChatUITests */,
+				B4F31E34229FB97F00EAF52F /* Products */,
+				59C864279BBA205C7386DB5F /* Pods */,
+				7408A0F708180B6B4A20CBEB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B4F31E34229FB97F00EAF52F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B4F31E33229FB97F00EAF52F /* WyChat.app */,
+				B4F31E4C229FB97F00EAF52F /* WyChatTests.xctest */,
+				B4F31E57229FB97F00EAF52F /* WyChatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B4F31E35229FB97F00EAF52F /* WyChat */ = {
+			isa = PBXGroup;
+			children = (
+				B4F31E69229FBA2500EAF52F /* Classes */,
+				B4F31E36229FB97F00EAF52F /* Supporting Files */,
+			);
+			path = WyChat;
+			sourceTree = "<group>";
+		};
+		B4F31E36229FB97F00EAF52F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B4F31E42229FB97F00EAF52F /* Assets.xcassets */,
+				B4F31E44229FB97F00EAF52F /* LaunchScreen.storyboard */,
+				B4F31E47229FB97F00EAF52F /* Info.plist */,
+				B4F31E37229FB97F00EAF52F /* main.m */,
+				B4F31E77229FBD1C00EAF52F /* PrefixHeader.pch */,
+				B4E6F1E122A0D4CB0062E1E0 /* README.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B4F31E4F229FB97F00EAF52F /* WyChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				B4F31E50229FB97F00EAF52F /* WyChatTests.m */,
+				B4F31E52229FB97F00EAF52F /* Info.plist */,
+			);
+			path = WyChatTests;
+			sourceTree = "<group>";
+		};
+		B4F31E5A229FB97F00EAF52F /* WyChatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B4F31E5B229FB97F00EAF52F /* WyChatUITests.m */,
+				B4F31E5D229FB97F00EAF52F /* Info.plist */,
+			);
+			path = WyChatUITests;
+			sourceTree = "<group>";
+		};
+		B4F31E69229FBA2500EAF52F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B48FBB6222BFCE45005E4738 /* Components */,
+				B458EA6F22AAA4BE00E79495 /* Chat */,
+				B4D356CB22A0BA45002EC39F /* HomePage */,
+				B4D356D122A0BA45002EC39F /* Contacts */,
+				B4D356D722A0BA45002EC39F /* MyInfomation */,
+				B4F31E6A229FBA2500EAF52F /* Login */,
+				B4F31E6B229FBA2500EAF52F /* Others */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B4F31E6A229FBA2500EAF52F /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				B4F31E6C229FBA7C00EAF52F /* controller */,
+				B4F31E6D229FBA7C00EAF52F /* view */,
+				B4F31E6E229FBA7C00EAF52F /* model */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		B4F31E6B229FBA2500EAF52F /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				B458EA6E22A9FA9200E79495 /* DB */,
+				B4F31EE2229FDBE500EAF52F /* Libs */,
+				B4F31E39229FB97F00EAF52F /* AppDelegate.h */,
+				B4F31E3A229FB97F00EAF52F /* AppDelegate.m */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		B4F31E6C229FBA7C00EAF52F /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				B4F31E6F229FBABC00EAF52F /* WCLoginVC.h */,
+				B4F31E70229FBABC00EAF52F /* WCLoginVC.m */,
+				B4F31E71229FBABC00EAF52F /* WCLoginVC.xib */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		B4F31E6D229FBA7C00EAF52F /* view */ = {
+			isa = PBXGroup;
+			children = (
+				B4F31E74229FBC1400EAF52F /* WCLoginWindow.h */,
+				B4F31E75229FBC1400EAF52F /* WCLoginWindow.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		B4F31E6E229FBA7C00EAF52F /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		B4F31EBD229FC1B600EAF52F /* images */ = {
+			isa = PBXGroup;
+			children = (
+				B4B74E5222A3C81100246875 /* rightBtn.png */,
+				B4B74E5022A3C7B200246875 /* leftBtn.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		B4F31EE0229FC1BC00EAF52F /* BaseLib */ = {
+			isa = PBXGroup;
+			children = (
+				B4F31E7D229FC1B600EAF52F /* BaseTopBarView.h */,
+				B4F31E7E229FC1B600EAF52F /* BaseTopBarView.m */,
+				B4F31E7F229FC1B600EAF52F /* BaseViewController.h */,
+				B4F31E80229FC1B600EAF52F /* BaseViewController.m */,
+				B4F31EC0229FC1B600EAF52F /* ViewManager.h */,
+				B4F31EC1229FC1B600EAF52F /* ViewManager.m */,
+				B4F31EBB229FC1B600EAF52F /* CateGoryHeader.h */,
+				B4F31E79229FBDAA00EAF52F /* VenderHeader.h */,
+				B4F31E7A229FBDC500EAF52F /* SizeHeader.h */,
+				B4F31EBD229FC1B600EAF52F /* images */,
+			);
+			name = BaseLib;
+			sourceTree = "<group>";
+		};
+		B4F31EE2229FDBE500EAF52F /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				B4F31EE3229FDBF000EAF52F /* ThirdLib */,
+				B4F31EE0229FC1BC00EAF52F /* BaseLib */,
+			);
+			name = Libs;
+			sourceTree = "<group>";
+		};
+		B4F31EE3229FDBF000EAF52F /* ThirdLib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ThirdLib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B4F31E32229FB97F00EAF52F /* WyChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4F31E60229FB97F00EAF52F /* Build configuration list for PBXNativeTarget "WyChat" */;
+			buildPhases = (
+				1B09325104C6FC72E6737ED1 /* [CP] Check Pods Manifest.lock */,
+				B4F31E2F229FB97F00EAF52F /* Sources */,
+				B4F31E30229FB97F00EAF52F /* Frameworks */,
+				B4F31E31229FB97F00EAF52F /* Resources */,
+				B46BB0C6229FE2D600E1DACB /* Embed Frameworks */,
+				7B55382F5740F89E3FA833D4 /* [CP] Copy Pods Resources */,
+				7F032A7015AAC8DE37C5C806 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WyChat;
+			productName = WyChat;
+			productReference = B4F31E33229FB97F00EAF52F /* WyChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B4F31E4B229FB97F00EAF52F /* WyChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4F31E63229FB97F00EAF52F /* Build configuration list for PBXNativeTarget "WyChatTests" */;
+			buildPhases = (
+				B4F31E48229FB97F00EAF52F /* Sources */,
+				B4F31E49229FB97F00EAF52F /* Frameworks */,
+				B4F31E4A229FB97F00EAF52F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4F31E4E229FB97F00EAF52F /* PBXTargetDependency */,
+			);
+			name = WyChatTests;
+			productName = WyChatTests;
+			productReference = B4F31E4C229FB97F00EAF52F /* WyChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B4F31E56229FB97F00EAF52F /* WyChatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4F31E66229FB97F00EAF52F /* Build configuration list for PBXNativeTarget "WyChatUITests" */;
+			buildPhases = (
+				B4F31E53229FB97F00EAF52F /* Sources */,
+				B4F31E54229FB97F00EAF52F /* Frameworks */,
+				B4F31E55229FB97F00EAF52F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4F31E59229FB97F00EAF52F /* PBXTargetDependency */,
+			);
+			name = WyChatUITests;
+			productName = WyChatUITests;
+			productReference = B4F31E57229FB97F00EAF52F /* WyChatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B4F31E2B229FB97F00EAF52F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = mac;
+				TargetAttributes = {
+					B4F31E32229FB97F00EAF52F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					B4F31E4B229FB97F00EAF52F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B4F31E32229FB97F00EAF52F;
+					};
+					B4F31E56229FB97F00EAF52F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B4F31E32229FB97F00EAF52F;
+					};
+				};
+			};
+			buildConfigurationList = B4F31E2E229FB97F00EAF52F /* Build configuration list for PBXProject "WyChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B4F31E2A229FB97F00EAF52F;
+			productRefGroup = B4F31E34229FB97F00EAF52F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B4F31E32229FB97F00EAF52F /* WyChat */,
+				B4F31E4B229FB97F00EAF52F /* WyChatTests */,
+				B4F31E56229FB97F00EAF52F /* WyChatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B4F31E31229FB97F00EAF52F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B458EAC222ADFBCA00E79495 /* WCCreateGroupVC.xib in Resources */,
+				B4B74DA122A37D0400246875 /* WCAddContactsVC.xib in Resources */,
+				B4B74D9C22A36F9600246875 /* WCMyInfoVC.xib in Resources */,
+				B4F31E73229FBABC00EAF52F /* WCLoginVC.xib in Resources */,
+				B4F31E46229FB97F00EAF52F /* LaunchScreen.storyboard in Resources */,
+				B4B74E5122A3C7B200246875 /* leftBtn.png in Resources */,
+				B4F31E43229FB97F00EAF52F /* Assets.xcassets in Resources */,
+				B4B74E5322A3C81100246875 /* rightBtn.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4F31E4A229FB97F00EAF52F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4F31E55229FB97F00EAF52F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B09325104C6FC72E6737ED1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WyChat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B55382F5740F89E3FA833D4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WyChat/Pods-WyChat-resources.sh",
+				"${PODS_ROOT}/EaseUI/EaseUI/resources/EaseUIResource.bundle",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/MWPhotoBrowser/MWPhotoBrowser.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EaseUIResource.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MWPhotoBrowser.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WyChat/Pods-WyChat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F032A7015AAC8DE37C5C806 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WyChat/Pods-WyChat-frameworks.sh",
+				"${PODS_ROOT}/Hyphenate/iOS_Pods_IMFullSDK_V3.5.5/Hyphenate.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Hyphenate.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WyChat/Pods-WyChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B4F31E2F229FB97F00EAF52F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B43A46FA22B3417A0046BFF2 /* WCGroupListVC.m in Sources */,
+				B4F31EC3229FC1B600EAF52F /* BaseTopBarView.m in Sources */,
+				B4DF489D22A504480055D543 /* WCNewContactApplyCell.m in Sources */,
+				B458EA6122A614FF00E79495 /* WCContactModel.m in Sources */,
+				B4B74D9B22A36F9600246875 /* WCMyInfoVC.m in Sources */,
+				B4F31E3B229FB97F00EAF52F /* AppDelegate.m in Sources */,
+				B458EAC122ADFBCA00E79495 /* WCCreateGroupVC.m in Sources */,
+				B4DF48A022A526C50055D543 /* WCFriendApplyModel.m in Sources */,
+				B474D51C22B4D56600D5C65D /* WCNewFriendApplyVC.m in Sources */,
+				B468A21B22B7957300456B56 /* WCSenderIdCardCell.m in Sources */,
+				B458EA5E22A6143D00E79495 /* WCContactsCell.m in Sources */,
+				B458EABA22ADF0FB00E79495 /* WCGroupListCell.m in Sources */,
+				B4B74DA022A37D0400246875 /* WCAddContactsVC.m in Sources */,
+				B4E6F1E422A0DA8B0062E1E0 /* WCConversationCell.m in Sources */,
+				B4F31E72229FBABC00EAF52F /* WCLoginVC.m in Sources */,
+				B4F31E76229FBC1400EAF52F /* WCLoginWindow.m in Sources */,
+				B474D52522B5F0A500D5C65D /* WCMediator.m in Sources */,
+				B43A46F722B3416A0046BFF2 /* WCFriendListVC.m in Sources */,
+				B4B74DA422A3BF9900246875 /* WCConversationModel.m in Sources */,
+				B468A21E22B7958400456B56 /* WCReciverIdCardCell.m in Sources */,
+				B474D52822B5F0BD00D5C65D /* WCChatComponent.m in Sources */,
+				B474D51922B4D54F00D5C65D /* WCNewFriendApplyCell.m in Sources */,
+				B4F31EC4229FC1B600EAF52F /* BaseViewController.m in Sources */,
+				B4F31E38229FB97F00EAF52F /* main.m in Sources */,
+				B458EAD022B33DDB00E79495 /* SlideViewController.m in Sources */,
+				B458EA7522AAA50800E79495 /* WCChatVC.m in Sources */,
+				B458EABD22ADF15B00E79495 /* WCGroupListModel.m in Sources */,
+				B458EA7822ACE9EA00E79495 /* context.m in Sources */,
+				B4D356DD22A0BA45002EC39F /* WCHomePageVC.m in Sources */,
+				B458EA6D22A9FA8F00E79495 /* DBUtil.m in Sources */,
+				B43A46F422B341350046BFF2 /* WCMailListVC.m in Sources */,
+				B4D356DE22A0BA45002EC39F /* WCContactsVC.m in Sources */,
+				B4F31EDF229FC1B600EAF52F /* ViewManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4F31E48229FB97F00EAF52F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4F31E51229FB97F00EAF52F /* WyChatTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4F31E53229FB97F00EAF52F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4F31E5C229FB97F00EAF52F /* WyChatUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B4F31E4E229FB97F00EAF52F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B4F31E32229FB97F00EAF52F /* WyChat */;
+			targetProxy = B4F31E4D229FB97F00EAF52F /* PBXContainerItemProxy */;
+		};
+		B4F31E59229FB97F00EAF52F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B4F31E32229FB97F00EAF52F /* WyChat */;
+			targetProxy = B4F31E58229FB97F00EAF52F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B4F31E44229FB97F00EAF52F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4F31E45229FB97F00EAF52F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B4F31E5E229FB97F00EAF52F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B4F31E5F229FB97F00EAF52F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B4F31E61229FB97F00EAF52F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 779BA3CA5970456D33B4137A /* Pods-WyChat.debug.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WyChat/Classes/Others/HyphenateFullSDK",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/WyChat/Classes/Others/PrefixHeader.pch";
+				INFOPLIST_FILE = WyChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.WyChat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B4F31E62229FB97F00EAF52F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EEC8511B34860D172081628 /* Pods-WyChat.release.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WyChat/Classes/Others/HyphenateFullSDK",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/WyChat/Classes/Others/PrefixHeader.pch";
+				INFOPLIST_FILE = WyChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.WyChat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B4F31E64229FB97F00EAF52F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WyChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.WyChatTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WyChat.app/WyChat";
+			};
+			name = Debug;
+		};
+		B4F31E65229FB97F00EAF52F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WyChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.WyChatTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WyChat.app/WyChat";
+			};
+			name = Release;
+		};
+		B4F31E67229FB97F00EAF52F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WyChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.WyChatUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WyChat;
+			};
+			name = Debug;
+		};
+		B4F31E68229FB97F00EAF52F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WyChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.WyChatUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WyChat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B4F31E2E229FB97F00EAF52F /* Build configuration list for PBXProject "WyChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4F31E5E229FB97F00EAF52F /* Debug */,
+				B4F31E5F229FB97F00EAF52F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4F31E60229FB97F00EAF52F /* Build configuration list for PBXNativeTarget "WyChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4F31E61229FB97F00EAF52F /* Debug */,
+				B4F31E62229FB97F00EAF52F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4F31E63229FB97F00EAF52F /* Build configuration list for PBXNativeTarget "WyChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4F31E64229FB97F00EAF52F /* Debug */,
+				B4F31E65229FB97F00EAF52F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4F31E66229FB97F00EAF52F /* Build configuration list for PBXNativeTarget "WyChatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4F31E67229FB97F00EAF52F /* Debug */,
+				B4F31E68229FB97F00EAF52F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B4F31E2B229FB97F00EAF52F /* Project object */;
+}

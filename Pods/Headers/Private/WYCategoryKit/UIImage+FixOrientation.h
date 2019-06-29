@@ -1,0 +1,1 @@
+../../../WYCategoryKit/WYCategoryKit/Classes/Category/UIImage/UIImage+FixOrientation.h
