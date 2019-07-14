@@ -96,4 +96,10 @@
  @return RGBA值
  */
 + (NSMutableArray *)changeUIColorToRGB:(UIColor *)color;
+
+
+/*
+ 渐变色
+ */
++ (CAGradientLayer *)setGradualChangingColor:(UIView *)view fromColor:(NSString *)fromHexColorStr toColor:(NSString *)toHexColorStr;
 @end

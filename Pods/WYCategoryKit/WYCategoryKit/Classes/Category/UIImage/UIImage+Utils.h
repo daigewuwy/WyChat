@@ -18,6 +18,7 @@ typedef enum  {
 
 ///根据色值 获取渐变 UIImage
 + (UIImage *)getImageFromColors:(NSArray *)colors ByGradientType:(GradientType)gradientType frame:(CGRect)frame;
+
 //比例缩放
 + (UIImage *)scaleImageWithName:(NSString *)imageName withScale:(CGFloat)scale;
 + (UIImage *)scaleImageWithName:(NSString *)imageName toSize:(CGSize)size;
@@ -27,6 +28,7 @@ typedef enum  {
 - (UIImage *) renderAtSize:(const CGSize) size;
 - (UIImage *) maskWithImage:(const UIImage *) maskImage;
 - (UIImage *) maskWithColor:(UIColor *) color;
+
 // 使用绘图返回圆形图片
 - (UIImage *)circleImage;
 

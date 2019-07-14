@@ -13,5 +13,5 @@ pod ‘MBProgressHUD’,’0.9’
 pod ‘MWPhotoBrowser’,’2.1.1’
 pod ‘Hyphenate’
 pod 'EaseUI', :git => 'https://github.com/easemob/easeui-ios-hyphenate-cocoapods.git'
-pod ‘WYCategoryKit’,’0.1.2’
+pod ‘WYCategoryKit’
 end

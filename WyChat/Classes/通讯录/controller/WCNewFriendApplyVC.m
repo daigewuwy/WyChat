@@ -35,10 +35,13 @@
 }
 
 - (void)setupUI {
+   
     [self setLeftBtnHide:NO];
     [self setTopTitle:@"新的好友申请"];
-    
+
     [self.view addSubview:self.tableView];
+    
+    
 }
 
 #pragma mark - UITableViewDelegate

@@ -100,6 +100,7 @@
     _registerBtn.layer.masksToBounds = _loginBtn.layer.masksToBounds;
     _registerBtn.layer.cornerRadius = _loginBtn.layer.cornerRadius;
     
+    // 密文输入
     _usrPwdTextField.secureTextEntry = YES;
 }
 

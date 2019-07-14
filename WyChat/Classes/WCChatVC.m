@@ -12,6 +12,7 @@
 #import "WCReciverIdCardCell.h"
 
 @interface WCChatVC ()<TopBarViewDelegate,EaseChatBarMoreViewDelegate,EaseMessageViewControllerDelegate>
+
 /** 由于该控制器不是继承自BaseViewController 所以手动添加一个BaseTopBarView. */
 @property (nonatomic,retain) BaseTopBarView *topBar;
 @end
