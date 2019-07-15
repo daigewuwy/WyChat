@@ -8,7 +8,6 @@ PODS:
     - FMDB/standard (= 2.7.5)
   - FMDB/standard (2.7.5)
   - Hyphenate (3.5.5)
-  - IQKeyboardManager (6.4.0)
   - Masonry (1.1.0)
   - MBProgressHUD (0.9)
   - MJRefresh (3.1.17)
@@ -29,7 +28,6 @@ DEPENDENCIES:
   - EaseUI (from `https://github.com/easemob/easeui-ios-hyphenate-cocoapods.git`)
   - FMDB
   - Hyphenate
-  - IQKeyboardManager
   - Masonry
   - MBProgressHUD (= 0.9)
   - MWPhotoBrowser (= 2.1.1)
@@ -40,7 +38,6 @@ SPEC REPOS:
     - DACircularProgress
     - FMDB
     - Hyphenate
-    - IQKeyboardManager
     - Masonry
     - MBProgressHUD
     - MJRefresh
@@ -63,7 +60,6 @@ SPEC CHECKSUMS:
   EaseUI: 3bb4554d25fbbac5f7369e4393a9bab9ea09a689
   FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
   Hyphenate: 396b936de5b3d68ec266c4bb9078e3ec95a45f31
-  IQKeyboardManager: fcef267266379c003181fc3592f6bdb8bf4db839
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: d8e7ea388dc1549a42e0d219067cf5f2c898fb66
   MJRefresh: ee5b68f639775462faba4db0fd243baf4d42c2cf
@@ -71,6 +67,6 @@ SPEC CHECKSUMS:
   SDWebImage: a72e880a8fe0f7fc31efe15aaed443c074d2a80c
   WYCategoryKit: a7fef601b3c8bc564932a843ebbef35719a734ce
 
-PODFILE CHECKSUM: 809f8963c2d5a729ead8ace7914082aec7224dc1
+PODFILE CHECKSUM: a246e4c6cddeb2cd6fac9c50fc5b8fd487322146
 
 COCOAPODS: 1.7.0
