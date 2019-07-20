@@ -6,7 +6,7 @@ source 'https://github.com/daigewuwy/WYSpecs.git'
 
 target ‘WyChat’ do
 
-pod 'IQKeyboardManager'
+#pod 'IQKeyboardManager'
 pod ‘Masonry’
 pod ‘FMDB’
 pod ‘MBProgressHUD’,’0.9’
